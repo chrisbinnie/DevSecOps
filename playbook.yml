@@ -1,0 +1,8 @@
+---
+
+- hosts: localbox
+
+  tasks:
+
+  - name: Just complete as valid YAML please
+    command: date +%F
